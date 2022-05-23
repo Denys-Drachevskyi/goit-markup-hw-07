@@ -30,7 +30,7 @@
     background-color: #F5F4FA;
     cursor: pointer;
     border-radius: 4px;
-    transition-property: background-color;
+    transition-property: background-color, color, box-shadow;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 

@@ -31,6 +31,19 @@
     margin-bottom: 9px;
 }
 
+.adress-block__street a {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--acent-color);
+
+    }
+
+}
+
 .adress-block__mail {
     font-style: normal;
     font-weight: 400;
@@ -42,6 +55,19 @@
     margin-bottom: 9px;
 }
 
+.adress-block__mail a {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--acent-color);
+
+    }
+
+}
+
 .adress-block__tel {
     font-style: normal;
     font-weight: 400;
@@ -50,6 +76,19 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     display: block;
+}
+
+.adress-block__tel a {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--acent-color);
+
+    }
+
 }
 
 .footer-baseline {
@@ -118,6 +157,7 @@
 }
 
 .subscribe__email {
+    // display: inline-flex;
     width: 358px;
     height: 50px;
     padding-left: 16px;
