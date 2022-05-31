@@ -377,19 +377,30 @@
             </li>
           </ul>
         </div>
-        <form class="subscribe">
-          <p class="subscribe__title">Подпишитесь на рассылку</p>
-              <input type="email" class="subscribe__email" name="email" placeholder="E-mail"/>
+        <div class="subscribe">
+          <form>
+            <p class="subscribe__title">
+              Подпишитесь на рассылку
+            </p>
+          <label for="subscribe-form">
+              <input type="email"
+               class="subscribe__email"
+                name="email"
+                id="subscribe-form"
+                placeholder="E-mail"/>
+              </label>
               <button type="submit" class="subscribe__btn">Подписаться
                   <svg class="subscribe__icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-send"></use></svg
               >
               </button>
-          </form>
+              </form>
+            </div>
       </div>
     </footer>
 
     <!-- MODAL -->
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
